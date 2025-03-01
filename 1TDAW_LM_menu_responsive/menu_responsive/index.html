@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+        $('.nav__toggle').on('click', function() {
+            $('.nav').toggleClass('display');
+        });
+        $('.nav__toggle').on('click', function() {
+            $('.menu__item').toggleClass('display');
+        });
+        $('.nav__toggle').on('click', function() {
+            $('.menu').toggleClass('escon');
+        });
+        });
+    </script>
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <div class="nav__logo"><a href="#"><img src="./img/logo.gif" alt=""></a></div>
+        <span class="nav__toggle">
+            <span class="menu-activador-linea"></span>
+            <span class="menu-activador-linea"></span>
+            <span class="menu-activador-linea"></span>
+        </span>
+        <ul class="menu escon">
+          <li class="menu__item">
+            <a href="#">Menu Item</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">Menu Item</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">Menu Item</a>
+          </li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

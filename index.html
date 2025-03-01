@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guía de Viajes</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <script>
+            $(document).ready(function() {
+            $('.nav__toggle').on('click', function() {
+                $('.nav').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu__item').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu').toggleClass('escon');
+            });
+            });
+        </script>
+    </head>
+    <body id="index" class="fjalla">
+        <header>
+            <nav class="nav">
+                <div class="nav__logo"><a href="#"><img src="./img/index/iberiaHor.png" alt=""></a></div>
+                <span class="nav__toggle">
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                </span>
+                <ul class="menu escon">
+                  <li class="menu__item">
+                    <a href="#">Menu Item</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#">Menu Item</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#">Menu Item</a>
+                  </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="cabecera">
+                <div>
+                    <img src="./img/index/iberiaVert.png">
+                </div>
+            </section>
+
+            <section class="descripcion">
+                <h1>BLUE</h1>
+                <div>
+                    <p>Black represents ambition, power, and self-determination in Magic: The Gathering. It seeks strength through independence, rejecting the constraints of morality and tradition. Black believes in taking what it wants, regardless of cost, viewing life as a struggle where the boldest and most resourceful thrive. It values pragmatism, embracing both life and death as tools for achieving its goals.</p>
+
+                    <p>In gameplay, Black is defined by its willingness to pay any price for victory. It often sacrifices life, creatures, or other resources to gain advantages. Mechanics like graveyard recursion, targeted removal, and life drain reflect its themes of power and resilience. Black’s creatures, such as zombies, vampires, and demons, often embody its dark, opportunistic nature, thriving on the cycle of death and rebirth.</p>
+                    
+                    <p>Black sees others as either tools or obstacles, willing to exploit or destroy anything in its path. While it can embody selfishness and greed, Black also represents freedom, rejecting external control in favor of forging its destiny. Ultimately, Black’s essence lies in its belief that strength and success are earned through unyielding determination and the courage to embrace the darkness within.</p>
+                </div>
+            </section>
+
+            <section id="destinos">
+                <div class="contenedor">
+                    <h2>NUESTROS DESTINOS</h2>
+                    <div>
+                        <div id="d_fr" class="d_tarj">
+                            <p>FRANCIA</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+        
+                        <div id="d_it" class="d_tarj">
+                            <p>ITALIA</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+        
+                        <div id="d_uk" class="d_tarj">
+                            <p>REINO UNIDO</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+
+                        <div id="d_us" class="d_tarj">
+                            <p>EEUU</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+
+                        <div id="d_gr" class="d_tarj">
+                            <p>GRECIA</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+
+                        <div id="d_tu" class="d_tarj">
+                            <p>TURQUÍA</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+
+                        <div id="d_po" class="d_tarj">
+                            <p>POLONIA</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+
+                        <div id="d_ja" class="d_tarj">
+                            <p>JAPÓN</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+
+                        <div id="d_ch" class="d_tarj">
+                            <p>CHINA</p>
+                            <a class="ir" href="#">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            ~ Hecho por Daniel Aybar Soto ~
+        </footer>
+    </body>
+</html>
+    
