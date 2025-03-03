@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guía de Viajes</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <script>
+            $(document).ready(function() {
+            $('.nav__toggle').on('click', function() {
+                $('.nav').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu__item').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu').toggleClass('escon');
+            });
+            });
+        </script>
+    </head>
+    <body id="usa" class="fjalla">
+        <header>
+            <nav class="nav">
+                <div class="nav__logo"><a href="./index.html"><img src="./img/index/iberiaHor.png" alt=""></a></div>
+                <span class="nav__toggle">
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                </span>
+                <ul class="menu escon">
+                    <li class="menu__item">
+                      <a href="./fra.html">FRA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./ita.html">ITA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./gbr.html">GBR</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./usa.html">USA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./tur.html">TUR</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./pol.html">POL</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="portada">
+                <h1>ESTADOS UNIDOS</h1>
+            </section>
+
+            <section class="introduccion">
+                <div>
+                    <p>Estados Unidos es un destino único que ofrece una diversidad impresionante de paisajes, culturas y experiencias. Desde las bulliciosas ciudades cosmopolitas hasta los tranquilos parques naturales, cada rincón del país invita a explorar, descubrir y maravillarse. Ya sea que busques aventuras en la naturaleza, inmersión cultural en museos de renombre mundial o vivir la emoción de ciudades vibrantes, EE. UU. tiene algo para todos. Además, la hospitalidad americana y sus innovadores estilos de vida brindan un ambiente acogedor para los viajeros. Sin importar cuál sea tu interés, un viaje por Estados Unidos es una experiencia que te dejará recuerdos inolvidables.</p>
+                </div>
+            </section>
+
+            <section class="monumentos">
+                <div class="contenedor">
+                    <h2>MONUMENTOS</h2>
+                    <div>
+                        <div>
+                            <div class="foto">
+                                <img src="./img/usa/mount.png">
+                            </div>
+                            <h3>El Monte Rushmore</h3>
+                            <div class="contenedor">
+                                <p>El Monte Rushmore, ubicado en Dakota del Sur, es una de las esculturas más reconocidas del mundo. En sus montañas se encuentran los rostros de cuatro presidentes de EE. UU., tallados en la roca. Esta impresionante obra es un símbolo de la historia política y el espíritu estadounidense.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="foto">
+                                <img src="./img/usa/statue.png">
+                            </div>
+                            <h3>La Estatua de la Libertad</h3>
+                            <div class="contenedor">
+                                <p>La Estatua de la Libertad, un regalo de Francia, es un ícono de la libertad y la democracia. Situada en la entrada al puerto de Nueva York, su imagen se ha convertido en un símbolo de esperanza y acogida para millones de inmigrantes y visitantes que llegan a Estados Unidos.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="foto">
+                                <img src="./img/usa/empire.png">
+                            </div>
+                            <h3>Empire State Building</h3>
+                            <div class="contenedor">
+                                <p>El Empire State Building es uno de los rascacielos más emblemáticos del mundo. Situado en el corazón de Nueva York, ofrece vistas espectaculares de la ciudad desde su plataforma de observación. Este gigantesco edificio de Art Deco es uno de los monumentos más icónicos de los Estados Unidos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            ~ Hecho por Daniel Aybar Soto ~
+        </footer>
+    </body>
+</html>

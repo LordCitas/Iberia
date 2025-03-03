@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guía de Viajes</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <script>
+            $(document).ready(function() {
+            $('.nav__toggle').on('click', function() {
+                $('.nav').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu__item').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu').toggleClass('escon');
+            });
+            });
+        </script>
+    </head>
+    <body id="gbr" class="fjalla">
+        <header>
+            <nav class="nav">
+                <div class="nav__logo"><a href="./index.html"><img src="./img/index/iberiaHor.png" alt=""></a></div>
+                <span class="nav__toggle">
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                </span>
+                <ul class="menu escon">
+                    <li class="menu__item">
+                      <a href="./fra.html">FRA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./ita.html">ITA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./gbr.html">GBR</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./usa.html">USA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./tur.html">TUR</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./pol.html">POL</a>
+                    </li>
+                  </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="portada">
+                <h1>REINO UNIDO</h1>
+            </section>
+
+            <section class="introduccion">
+                <div>
+                    <p>El Reino Unido es un destino fascinante que combina tradición, cultura y modernidad. Desde sus vibrantes ciudades hasta sus tranquilos paisajes rurales, ofrece algo para cada tipo de viajero. Explora la rica historia que se refleja en cada rincón y sumérgete en una atmósfera única llena de encanto. La mezcla de arquitectura histórica y contemporánea, junto con una vida cultural vibrante, hace de este país un lugar ideal para aquellos que buscan una experiencia auténtica. Además, su gente acogedora y la amplia oferta de actividades garantizan que cada momento sea especial. ¡Un viaje al Reino Unido es una experiencia que no olvidarás!</p>
+                </div>
+            </section>
+
+            <section class="monumentos">
+                <div class="contenedor">
+                    <h2>MONUMENTOS</h2>
+                    <div>
+                        <div>
+                            <div class="foto">
+                                <img src="./img/gbr/bridge.png">
+                            </div>
+                            <h3>Tower Bridge</h3>
+                            <div class="contenedor">
+                                <p>El Tower Bridge es una de las maravillas de la ingeniería victoriana. Este icónico puente levadizo, que cruza el río Támesis, es reconocido en todo el mundo. Su arquitectura única y su capacidad para elevarse lo convierten en un punto de referencia esencial en Londres, ideal para admirar las vistas del río.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="foto">
+                                <img src="./img/gbr/hall.png">
+                            </div>
+                            <h3>London City Hall</h3>
+                            <div class="contenedor">
+                                <p>El London City Hall, sede del Ayuntamiento de Londres, destaca por su diseño moderno y su forma distintiva. Situado junto al río Támesis, es un ejemplo perfecto de la arquitectura contemporánea en la ciudad. Además de su estética, alberga importantes actividades gubernamentales y ofrece impresionantes vistas de la ciudad.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="foto">
+                                <img src="./img/gbr/ben.png">
+                            </div>
+                            <h3>Palacio de Westminster</h3>
+                            <div class="contenedor">
+                                <p>El Palacio de Westminster, sede del Parlamento del Reino Unido, es un símbolo de la política y la historia británica. Con su arquitectura neogótica y su ubicación junto al río Támesis, es uno de los edificios más emblemáticos de Londres. Es imposible no impresionarse al ver su grandeza y su importancia histórica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            ~ Hecho por Daniel Aybar Soto ~
+        </footer>
+    </body>
+</html>

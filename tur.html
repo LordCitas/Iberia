@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guía de Viajes</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <script>
+            $(document).ready(function() {
+            $('.nav__toggle').on('click', function() {
+                $('.nav').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu__item').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu').toggleClass('escon');
+            });
+            });
+        </script>
+    </head>
+    <body id="tur" class="fjalla">
+        <header>
+            <nav class="nav">
+                <div class="nav__logo"><a href="./index.html"><img src="./img/index/iberiaHor.png" alt=""></a></div>
+                <span class="nav__toggle">
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                </span>
+                <ul class="menu escon">
+                    <li class="menu__item">
+                      <a href="./fra.html">FRA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./ita.html">ITA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./gbr.html">GBR</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./usa.html">USA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./tur.html">TUR</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./pol.html">POL</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="portada">
+                <h1>TURQUÍA</h1>
+            </section>
+
+            <section class="introduccion">
+                <div>
+                    <p>Turquía es un destino fascinante que une lo mejor de Asia y Europa. Su rica historia, sus paisajes impresionantes y su vibrante cultura hacen de este país un lugar único para explorar. Desde la costa del Egeo hasta las mesetas de Anatolia, Turquía ofrece una mezcla inigualable de lo antiguo y lo moderno. Las ciudades históricas y los paisajes naturales invitan a los viajeros a descubrir secretos milenarios mientras disfrutan de la calidez y hospitalidad turca. Además, la diversidad cultural y la tradición que se vive en cada rincón hacen de Turquía un lugar inolvidable. Sin duda, un viaje a este país es una experiencia enriquecedora que quedará grabada en tu memoria.</p>
+                </div>
+            </section>
+
+            <section class="monumentos">
+                <div class="contenedor">
+                    <h2>MONUMENTOS</h2>
+                    <div>
+                        <div>
+                            <div class="foto">
+                                <img src="./img/tur/aphrodisias.png">
+                            </div>
+                            <h3>Ruinas de Aphrodisias</h3>
+                            <div class="contenedor">
+                                <p>Las ruinas de Afrodisias, en la región suroeste de Turquía, son un fascinante testimonio de la antigua ciudad dedicada a Afrodita. Con su impresionante estadio, teatro y templos, Afrodisias ofrece una mirada única a la vida en la antigua Anatolia, siendo uno de los sitios arqueológicos más importantes del país.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="foto">
+                                <img src="./img/tur/bluem.png">
+                            </div>
+                            <h3>La Mezquita Azul</h3>
+                            <div class="contenedor">
+                                <p>La Mezquita Azul, uno de los monumentos más emblemáticos de Estambul, es famosa por sus impresionantes azulejos azules que decoran su interior. Esta joya arquitectónica del siglo XVII, construida por el sultán Ahmed I, es un lugar de culto y un referente cultural en la ciudad.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="foto">
+                                <img src="./img/tur/pamukkale.png">
+                            </div>
+                            <h3>Fuentes termales de Pamukkale</h3>
+                            <div class="contenedor">
+                                <p>Pamukkale, conocida como el "Castillo de Algodón", es famosa por sus impresionantes terrazas blancas de travertino formadas por aguas termales. Este fenómeno natural, situado en la región del Egeo, es una maravilla geológica que atrae a miles de turistas por su belleza surrealista.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            ~ Hecho por Daniel Aybar Soto ~
+        </footer>
+    </body>
+</html>

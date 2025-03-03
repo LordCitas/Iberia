@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guía de Viajes</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <script>
+            $(document).ready(function() {
+            $('.nav__toggle').on('click', function() {
+                $('.nav').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu__item').toggleClass('display');
+            });
+            $('.nav__toggle').on('click', function() {
+                $('.menu').toggleClass('escon');
+            });
+            });
+        </script>
+    </head>
+    <body id="pol" class="fjalla">
+        <header>
+            <nav class="nav">
+                <div class="nav__logo"><a href="./index.html"><img src="./img/index/iberiaHor.png" alt=""></a></div>
+                <span class="nav__toggle">
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                    <span class="menu-activador-linea"></span>
+                </span>
+                <ul class="menu escon">
+                    <li class="menu__item">
+                      <a href="./fra.html">FRA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./ita.html">ITA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./gbr.html">GBR</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./usa.html">USA</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./tur.html">TUR</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="./pol.html">POL</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="portada">
+                <h1>POLONIA</h1>
+            </section>
+
+            <section class="introduccion">
+                <div>
+                    <p>Polonia es un destino que combina historia, cultura y naturaleza en un solo lugar. Desde sus medievales castillos hasta sus vibrantes ciudades modernas, Polonia te ofrece una experiencia única. Recorre sus acogedoras calles llenas de historia, disfruta de sus paisajes impresionantes, que van desde bosques densos hasta montañas majestuosas, y sumérgete en su rica tradición. Cada ciudad tiene su propia personalidad, desde la animada Varsovia hasta la encantadora Cracovia. Además, la hospitalidad polaca y su oferta cultural, llena de museos, teatros y festivales, te cautivarán. Polonia es, sin duda, un destino que ofrece algo para cada tipo de viajero. ¡Descúbrelo por ti mismo!</p>
+                </div>
+            </section>
+
+            <section class="monumentos">
+                <div class="contenedor">
+                    <h2>MONUMENTOS</h2>
+                    <div>
+                        <div>
+                            <div class="foto">
+                                <img src="./img/pol/castillo.png">
+                            </div>
+                            <h3>Castillo de Książ</h3>
+                            <div class="contenedor">
+                                <p>El Castillo de Książ, en la región de Baja Silesia, es una de las estructuras más impresionantes de Polonia. Este majestuoso castillo medieval, rodeado de hermosos jardines, ha sido testigo de siglos de historia y ha sido restaurado para preservar su magnificencia. Es el tercer castillo más grande del país y un lugar lleno de misterio y belleza.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="foto">
+                                <img src="./img/pol/statue.png">
+                            </div>
+                            <h3>La Sirena de Varsovia</h3>
+                            <div class="contenedor">
+                                <p>La Sirena de Varsovia, ubicada en el corazón de la capital polaca, es el símbolo emblemático de la ciudad. Esta estatua, que representa a una sirena armada con espada y escudo, cuenta la leyenda de cómo Varsovia fue fundada. Es un punto de referencia icónico que atrae a turistas y habitantes por igual.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="foto">
+                                <img src="./img/pol/palacio.webp">
+                            </div>
+                            <h3>Palacio de la Cultura y la Ciencia</h3>
+                            <div class="contenedor">
+                                <p>El Palacio de la Cultura y la Ciencia de Varsovia es un ejemplo de arquitectura socialista de la época comunista. Con sus 231 metros de altura, es el edificio más alto de Polonia y un centro cultural vital. Su diseño imponente y su posición central hacen de este palacio un símbolo de la ciudad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            ~ Hecho por Daniel Aybar Soto ~
+        </footer>
+    </body>
+</html>

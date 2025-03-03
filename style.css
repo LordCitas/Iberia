@@ -62,7 +62,7 @@ a{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 60%;
 }
 
 .menu__item {
@@ -172,18 +172,6 @@ a{
         animation-delay: 0.35s;
     }
 
-    .menu__item.display:nth-child(7) {
-        animation-delay: 0.4s;
-    }
-
-    .menu__item.display:nth-child(8) {
-        animation-delay: 0.45s;
-    }
-
-    .menu__item.display:nth-child(9) {
-        animation-delay: 0.5s;
-    }
-
     .escon{
         display: none;
         transition: 0;
@@ -257,19 +245,29 @@ main{
     background-image: url("./img/index/fondo_presentacion.jpg");
 }
 
-#fr>main{
-    background-image: url("./img/fr/propuesta_france.png");
+#fra>main{
+    background-image: url("./img/fra/propuesta_france.png");
 }
 
 #ita>main{
-    background-image: url("./img/it/propuesta_italia.png");
+    background-image: url("./img/ita/propuesta_italia.png");
 }
 
-#uk>main{
-    background-image: url("./img/uk/propuesta4.png");
+#gbr>main{
+    background-image: url("./img/gbr/propuesta4.png");
 }
 
+#usa>main{
+    background-image: url("./img/usa/propuesta.png");
+}
 
+#tur>main{
+    background-image: url("./img/tur/propuesta.png");
+}
+
+#pol>main{
+    background-image: url("./img/pol/propuesta.png");
+}
 
 #cabecera{
     height: 85vh;
@@ -323,6 +321,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: end;
+    margin: auto;
 }
 
 .foto:hover{
@@ -451,39 +450,35 @@ h1{
 }
 
 #d_fr{
-    background-image: url("./img/fr/d_fr.jpg");
+    background-image: url("./img/fra/d_fr.jpg");
 }
 
 #d_it{
-    background-image: url("./img/it/d_it.jpg");
+    background-image: url("./img/ita/d_it.jpg");
 }
 
 #d_uk{
-    background-image: url("./img/uk/d_uk.webp");
+    background-image: url("./img/gbr/d_uk.webp");
 }
 
 #d_us{
-    background-image: url("./img/us/d_us3.jpg");
-}
-
-#d_gr{
-    background-image: url("./img/gr/d_gr.jpg");
+    background-image: url("./img/usa/d_us3.jpg");
 }
 
 #d_tu{
-    background-image: url("./img/tu/d_tu.webp");
+    background-image: url("./img/tur/d_tu.webp");
 }
 
 #d_po{
-    background-image: url("./img/po/d_pl.jpg");
+    background-image: url("./img/pol/d_pl.jpg");
 }
 
 #d_ja{
-    background-image: url("./img/ja/d_ja.jpg");
+    background-image: url("./img/jpn/d_ja.jpg");
 }
 
 #d_ch{
-    background-image: url("./img/ch/d_ch.jfif");
+    background-image: url("./img/chn/d_ch.jfif");
 }
 
 footer{
@@ -498,9 +493,22 @@ footer{
     color: white;
 }
 
-
+@media screen and (max-width: 1780px){
+    .monumentos>.contenedor>div>div{
+        text-align: center;
+        width: 750px;
+        background: linear-gradient(to bottom,  rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.71));
+        transition: transform .5s;
+        border-radius: 20px;
+        margin: 0 20px;
+        padding:  30px 20px;
+        font-size: 2rem;
+    }
+}
 
 @media screen and (max-width: 1200px){
+    
+
     #cabecera>div{
         width: 40%;
         margin: 5% 5% 0 0;
